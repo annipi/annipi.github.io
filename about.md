@@ -4,7 +4,7 @@ layout: default
 
 # ¿Quién soy?
 
-![](./src/profil.jpg  =100x100)
+![](./src/profil_git.jpg ){: .center-image }
 
 Bueno esa es una pregunta complicada para mi, pero pues haré mi mejor esfuerzo para que me conozcan un poco...
 
