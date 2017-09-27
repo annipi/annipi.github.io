@@ -33,12 +33,12 @@ La representación 3D(3D rendering), tiene una amplia variedad de aplicaciones q
 - Animaciones.
 - Películas.
 
-Determinación de superficies oculatas (HSD):
+**Determinación de superficies oculatas (HSD):**
 Determina cuales planos o partes no son visibles desde cierto punto de vista ([Problema de visibilidad](https://en.wikipedia.org/wiki/Visibility_(geometry))) Un algoritmo de determinación de superficies oclutas, es la solución al problema de visibilidad.
 
 El [problema de visibilidad](https://en.wikipedia.org/wiki/Visibility_(geometry)) en geometría es una abstracción de la noción en la vida real de la visibilidad, es decir que dados un conjunto de obstaculos dentro del [espacio euclidiano](https://en.wikipedia.org/wiki/Euclidean_space), se dice que dos puntos en el espacio son visibles entre sí, si el segmento de línea que los une no cruza ningún obstáculo.
 
-El problema de la visibilidad es uno de los más grande problemas dentro de los la representación de gráficos 3D en computadores. Donde HSD se vuelve fundamental para representar imagenes de forma correcta de tal manera que, no sea posible ver elementos ocultos por el modelo en si mismo.
+El problema de la visibilidad es uno de los más grande problemas dentro de los la representación de gráficos 3D en computadores. Donde HSD se vuelve fundamental para representar imagenes de forma correcta de tal manera que, no sea posible ver elementos ocultos por el modelo en si mismo. (A menos que quién este mirando sea superman!)
 
 ![](./src/superman-vision.jpg ){: .center-image }
 
@@ -51,7 +51,10 @@ La importancia de los algoritmos de render esta dada en permitir mundos de gran 
 
 #### [](#header-4)Motivacion:
 El algoritmo de Partición binaria del espacio (BSP) es uno de los más usados para generar mapas de juegos como Doom en los que la vista de primera persona (FPV)
-
+![](./src/doom1.gif ){: .center-image }
+PC Doom/Ultimate Doom level E1M1, HANGAR: Start screen
+![](./src/doom2.gif ){: .center-image }
+PC Doom/Ultimate Doom level E1M2, NUCLEAR PLANT: Start screen
 
 {% comment %}
 ## [](#header-2)2. Estado del Arte
