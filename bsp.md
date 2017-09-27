@@ -33,13 +33,6 @@ La representación 3D(3D rendering), tiene una amplia variedad de aplicaciones q
 - Animaciones.
 - Películas.
 
-#### [](#header-4)Motivacion:
-El algoritmo de Partición binaria del espacio (BSP) es uno de los más usados para generar mapas de juegos como Doom en los que la vista de primera persona (FPV)
-
-
-
-## [](#header-2)2. Estado del Arte
-
 Determinación de superficies oculatas (HSD):
 Determina cuales planos o partes no son visibles desde cierto punto de vista ([Problema de visibilidad](https://en.wikipedia.org/wiki/Visibility_(geometry))) Un algoritmo de determinación de superficies oclutas, es la solución al problema de visibilidad.
 
@@ -55,6 +48,16 @@ La importancia de los algoritmos de render esta dada en permitir mundos de gran 
 3. [Warnock algorithm](https://en.wikipedia.org/wiki/Warnock_algorithm)
 4. [Z-Buffering](https://en.wikipedia.org/wiki/Z-buffering)
 5. [Ray tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))
+
+#### [](#header-4)Motivacion:
+El algoritmo de Partición binaria del espacio (BSP) es uno de los más usados para generar mapas de juegos como Doom en los que la vista de primera persona (FPV)
+
+
+{% comment %}
+## [](#header-2)2. Estado del Arte
+
+
+{% endcomment %}
 
 
 
